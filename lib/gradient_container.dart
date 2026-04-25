@@ -23,14 +23,10 @@ class GradientContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: const Center(
-        child: Text(
-          'Hello Flutter!',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 32,
-            fontWeight: FontWeight.bold,
-          ),
+      child: Center(
+        child: Image.asset(
+          'assets/images/dice-1.png',
+          width: 300,
         ),
       ),
     );
